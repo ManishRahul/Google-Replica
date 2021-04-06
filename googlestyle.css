@@ -9,7 +9,45 @@ html{
     grid-template-rows:50px;
 }
 
+#navbar a{
+    font-size: 12px;
+}
+
 a {
     text-decoration : none;
     color : #606060;
+}
+
+#logo {
+    grid-area : logo;
+}
+
+#search {
+    
+    height : 30pxx;
+    width : 80%;
+    align-self : center;
+    justify-self : center;
+    border : 1px solid black;
+    border-radius : 30px;
+}
+
+#search:focus {
+    box-shadow : 1px 1px 5px grey;
+
+}
+
+#search:hover {
+    box-shadow : 1px 1px 5px grey;
+    
+}
+
+#footer {
+    display: grid;
+    grid-template-columns:50px 70px 60px 1fr 50px 50px 50px ;
+    grid-template-rows:50px;
+}
+
+#footer a {
+    font-size: 12px;
 }
